@@ -1,0 +1,141 @@
+.container{
+    margin: 0;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.808);
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 90vh;
+    font-size: 2rem;
+}
+
+/* Headings */
+.container h2{
+    font-weight: 500;
+}
+.container h3{
+    font-weight: 700;
+}
+
+/* Main Layout */
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    justify-content: center;
+}
+
+/* About Section */
+.about{
+    display: flex;
+    flex-direction: column;
+    min-width: 250px;
+}
+.about a{
+    font-size: 1.7rem;
+    margin: 0.6rem 0;
+}
+
+/* Info List */
+.info{
+    margin-top: 4rem;
+}
+.info li{
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    width: 100%;
+    max-width: 350px;
+}
+
+/* Social Icons */
+.icons{
+    margin-top: 4rem;
+    text-align: center;
+}
+.icons i{
+    font-size: 3rem;
+    margin: 1rem;
+    cursor: pointer;
+}
+.icons i:hover{
+    opacity: 0.8;
+}
+
+/* Input fields */
+input[type='email'],
+.row select {
+    width: 100%;
+    max-width: 450px;
+    height: 4.7rem;
+    margin: 1.2rem 0;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+input[type='date']{
+    width: 100%;
+    max-width: 250px;
+    height: 4.7rem;
+    margin: 1.2rem 0;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+/* Submit section */
+.submit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 2rem;
+    width: 100%;
+}
+
+/* Buttons */
+button{
+    width: 100%;
+    max-width: 300px;
+    height: 5rem;
+    margin: 1.5rem 0;
+    border-radius: 5px;
+    font-size: 1.8rem;
+    color: white;
+    background-color: rgb(170, 160, 160);
+    transition: 0.2s ease;
+}
+button:hover{
+    cursor: pointer;
+    transform: translateY(-3px);
+    box-shadow:  0 6px 15px rgba(214, 206, 206, 0.495);
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 850px){
+    .container{
+        font-size: 1.6rem;
+        padding: 1.5rem;
+    }
+
+    .about a{
+        font-size: 1.5rem;
+    }
+
+    .icons i{
+        font-size: 2.4rem;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .container{
+        text-align: center;
+    }
+
+    .main{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    input[type='email'],
+    input[type='date'],
+    .row select {
+        max-width: 100%;
+    }
+}
