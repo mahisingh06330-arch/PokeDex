@@ -172,14 +172,14 @@ a {
 
 h1:hover {
   transform: translateY(-2px);
-  text-shadow: 0 6px 15px rgba(0,0,0,0.5);
+  text-shadow: 0 6px 10px rgba(230, 98, 16, 0.3);
 }
 .navbar2{
   display: none;
 }
 
 /* TABLET RESPONSIVE (max-width: 900px) */
-@media (max-width: 900px) {
+@media (max-width: 950px) {
   .navbar {
     display: none;
   }

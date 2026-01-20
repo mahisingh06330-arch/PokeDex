@@ -1,33 +1,33 @@
-/* .gpt3__navbar{
+/* .poke__navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2rem 6rem;
 }
-.gpt3__navbar-links{
+.poke__navbar-links{
     flex:1;
     display:flex;
     justify-content: flex-start;
     align-items: center;
 }
-.gpt3__navbar-links_logo{
+.poke__navbar-links_logo{
     margin-right: 2rem;
 }
-.gpt3__navbar-links_logo img{
+.poke__navbar-links_logo img{
     height: 16.02px;
     width:62.56px;
 }
-.gpt3__navbar-links_container{
+.poke__navbar-links_container{
     display: flex;
     flex-direction: row;
 }*/
-/* .gpt3__navbar-sign{
+/* .poke__navbar-sign{
     display: flex;
     justify-content: flex-end;
     align-items: center;
 } */
 /*
-.gpt3__navbar-links_container p, .gpt3__navbar-sign p, .gpt3__navbar-menu_container p{
+.poke__navbar-links_container p, .poke__navbar-sign p, .poke__navbar-menu_container p{
     color: #fff;
     font-family:var(--font-family);
     font-weight: 500;
@@ -37,7 +37,7 @@
     margin: 0 1rem;
     cursor: pointer;
 }
-.gpt3__navbar-sign button, .gpt3__navbar-menu_container button{
+.poke__navbar-sign button, .poke__navbar-menu_container button{
     padding: 0.5rem 1rem;
     color:#fff;
     background:#FF4820;
@@ -50,16 +50,16 @@
     outline: none;
     cursor:pointer;
 }
-.gpt3__navbar-menu{
+.poke__navbar-menu{
     margin-left: 1rem;
     display: none;
     position: relative;
 
 }
-.gpt3__navbar-menu svg{
+.poke__navbar-menu svg{
     cursor: pointer;
 }
-.gpt3__navbar-menu_container{
+.poke__navbar-menu_container{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -75,21 +75,21 @@
     border-radius: 5px;
     box-shadow: 0 0 5 rgba(0,0,0,0.2);
 }
-.gpt3__navbar-menu_container p{
+.poke__navbar-menu_container p{
     margin: 1rem 0;
 }
-.gpt3__navbar-menu_container-links-sign{
+.poke__navbar-menu_container-links-sign{
     display: none;
 } */
 
 
 
 /* @media screen and (max-width: 550px){
-     .gpt3__navbar-links_container{
+     .poke__navbar-links_container{
         display: none;
     }
     /*
-    .gpt3__navbar-menu{
+    .poke__navbar-menu{
         display: flex;
     } 
     .NAVBAR{
@@ -101,21 +101,21 @@
     }*/
 
 /* @media screen and (max-width: 700px){
-    .gpt3__navbar{
+    .poke__navbar{
         padding: 2rem 4rem;
     }
 } */
 /* @media screen and (max-width: 550px){
-    .gpt3__navbar{
+    .poke__navbar{
         padding: 2rem;
     }
-    .gpt3__navbar-sign{
+    .poke__navbar-sign{
         display: none;
     }
-    .gpt3__navbar-menu_container{
+    .poke__navbar-menu_container{
         top:20px;
     }
-    .gpt3__navbar-menu_container-links-sign{
+    .poke__navbar-menu_container-links-sign{
         display: block;
     }
 } */
@@ -130,9 +130,6 @@
     position: relative;
 }
 @media screen and (max-width: 950px){
-    .poke__navbar-links_container{
-        display: none;
-    }
 
     .NAVBAR{
         width: 100vw;
@@ -142,14 +139,15 @@
     .poke__navbar{
         width: 100%;
         display: flex;
-        align-items: center;
         justify-content: space-between;
         padding: 1rem;
     }
 
     .poke__navbar-menu{
+        flex-direction: column;
         display: flex;
         margin-left: auto;
+        align-items: flex-end;
     }
 }
 .poke__navbar-menu svg{
@@ -160,7 +158,8 @@
 .poke__navbar-menu_container a {
     color: black;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 600;
+    font-size: 1.5rem;
 }
 .poke__navbar-menu-container-links {
     display: flex;
@@ -169,9 +168,13 @@
     gap: 1rem;
 }
  .poke__navbar-menu_container a:hover {
-    color: #333;
+    color: white;
     padding-left: 5px;
-    transition: 0.2s ease;
+    font-size: 1.6rem;
+    padding:0.7rem 0.4rem;
+    transition: 0.1s ease;
+    background-color: orange;
+    border-radius: 5px;
 }
 
 

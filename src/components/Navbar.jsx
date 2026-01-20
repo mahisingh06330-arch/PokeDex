@@ -6,11 +6,11 @@ import logo from './logo-pokemon.png'
 
 const Menu = () => (
   <>
-  <a href="#">Home</a>
-    <a href="#">Pokédex</a>
-    <a href="#">Video Games & Apps</a>
-    <a href="#">Trading Card Game</a>
-    <a href="#">Animation</a>
+  <a href="#"><i class="fa-regular fa-house"></i>Home</a>
+    <a href="#"><i class="fa-brands fa-square-web-awesome-stroke"></i>Pokédex</a>
+    <a href="#"> <i class="fa-solid fa-puzzle-piece"></i>Video Games & Apps</a>
+    <a href="#"><i class="fa-brands fa-laravel"></i>Trading Card Game</a>
+    <a href="#"><i class="fa-regular fa-circle-play"></i>Animation</a>
   </>
 )
 
