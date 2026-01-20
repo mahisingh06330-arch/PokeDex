@@ -3,20 +3,25 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Urbanist", sans-serif;
-  overflow-x: hidden;
 }
 
 html {
   font-size: 52.5%;
+  overflow-x: hidden;
 }
 
 body {
   width: 100%;
   overflow-x: hidden;
-  background-image: url("./components/Background_Image.png");
+  background-image: url("./assets/Background_Image.png");
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 900;
 }
 
@@ -27,7 +32,8 @@ h1 {
   text-align: center;
 }
 
-p,span {
+p,
+span {
   font-size: 1.6rem;
 }
 
@@ -87,23 +93,18 @@ input[type="text"] {
   color: #000000;
 }
 
-.cards {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  justify-content: center;
-  align-items: center;
-  gap: 3.2rem;
-}
-
 .pokemon-card {
-  width: 36rem;
   min-height: 42rem;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
     rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-  background-color: #fff;                       /* card background */
+  background-color: #fff;
+  /* card background */
   border-radius: 0.2rem;
   padding: 1.6rem;
   position: relative;
+  width: 100%;
+  max-width: 36rem;
+  margin: auto;
 }
 
 .pokemon-card::before {
@@ -114,7 +115,7 @@ input[type="text"] {
   width: 100%;
   height: 40%;
   transform: rotate(180deg);
-  background-color: #e6f0cf;                        /* Oval color */
+  background-color: #e6f0cf;
   border-radius: 50% 50% 100% 0% / 99% 100% 0% 1%;
   z-index: 0;
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
@@ -159,7 +160,7 @@ figure {
 
   & p {
     padding: 0.6rem 2.4rem;
-    background-color: #77b62b;                  /* capsule color */
+    background-color: #77b62b;
     border-radius: 20rem;
     -webkit-border-radius: 20rem;
     -moz-border-radius: 20rem;
@@ -173,20 +174,27 @@ figure {
 
 .pokemon-image {
   width: 60%;
-  height: 15rem;
+  max-height: 18rem;
+  height: auto;
+  object-fit: contain;
 }
+
 
 pokemon-info {
   text-align: center;
 }
+
 .short-container {
   width: 65rem;
+
   & h1 {
     margin-bottom: 3.2rem;
   }
+
   & p {
     margin-bottom: 1.6rem;
   }
+
   & button {
     padding: 0.6rem 0;
     cursor: pointer;
@@ -208,17 +216,18 @@ pokemon-info {
 
 .show-btn:hover {
   background: #f13e3e;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-}
-.cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
-  padding: 20px;
-  list-style: none;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-#mglass{
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 3.2rem;
+  padding: 2rem;
+}
+
+
+#mglass {
   color: white;
   display: flex;
   justify-content: center;
@@ -227,7 +236,5 @@ pokemon-info {
   border: 1px solid black;
   background-color: black;
   border-radius: 3px;
-}
-#mglass:hover{
   cursor: pointer;
 }

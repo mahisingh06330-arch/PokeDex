@@ -3,7 +3,7 @@ import React from 'react'
 
 const footer = () => {
   return (
-    <div className='container'>
+    <div className='footer'>
       <div className="submit">
         <h2>Sign up for Pokémon emails!</h2>
         <input type="email" placeholder='Enter Your Email' />
