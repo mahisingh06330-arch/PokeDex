@@ -19,23 +19,23 @@ const Navbar = () => {
   return (
     <>
     <div className="NAVBAR">
-      <div className="gpt3__navbar">
-        <div className="gpt3__navbar-links">
-          <div className="gpt3__navbar-links_logo">
+      <div className="poke__navbar">
+        <div className="poke__navbar-links">
+          <div className="poke__navbar-links_logo">
             <img src={logo} alt="logo" />
           </div>
-          <div className="gpt3__navbar-links_container">
+          <div className="poke__navbar-links_container">
             <Menu />
           </div>
         </div>
-        <div className="gpt3__navbar-menu">
+        <div className="poke__navbar-menu">
           {toggleMenu
             ? <RiCloseLine  size={27} onClick={() => setToggleMenu(false)} />
             : <RiMenu3Line  size={27} onClick={() => setToggleMenu(true)} />
           }
           {toggleMenu && (
-            <div className="gpt3__navbar-menu_container scale-up-center">
-              <div className="gpt3__navbar-menu-container-links">
+            <div className="poke__navbar-menu_container scale-up-center">
+              <div className="poke__navbar-menu-container-links">
                 <Menu />
               </div>
             </div>
