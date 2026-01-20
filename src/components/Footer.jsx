@@ -167,7 +167,6 @@ const footer = () => {
   <option value="Zimbabwe">Zimbabwe</option>
 
         </select>
-        <input type="date"/>
         </div>
         <button>SIGN UP</button>
         </div>
@@ -195,7 +194,7 @@ const footer = () => {
          <li>Cookie Page</li>
          <li>Legal Info</li>
          <li>Security</li>
-         <li>&copy;2026 Pokémon. &copy;1995-2026 Nintendo/Creatures Inc./GAME FREAK inc.TM, &reg;Nintendo</li>
+         <li>&copy;2026 Pokémon. &copy;1995-2026 inc.TM, &reg;Nintendo</li>
         </div>
         </div>
     </div>
