@@ -59,6 +59,7 @@ const Pokemon = () => {
                         value={search}
                         onChange={(e) => setSearch(e.target.value)}
                     />
+                    <i class="fa-solid fa-magnifying-glass" id='mglass'></i>
                 </div>
 
                 <ul className="cards">

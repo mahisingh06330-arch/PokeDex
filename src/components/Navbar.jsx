@@ -25,7 +25,7 @@ const Navbar = () => {
             <img src={logo} alt="logo" />
           </div>
           <div className="poke__navbar-links_container">
-            <Menu />
+       
           </div>
         </div>
         <div className="poke__navbar-menu">
