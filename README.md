@@ -1,16 +1,128 @@
-# React + Vite
+#  Pokedex Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **Pokedex Web Application** built using **React.js** that fetches real-time Pokémon data from the **PokéAPI**. This project was developed as part of my **GDG Frontend Inductions** to demonstrate my understanding of frontend fundamentals, API integration, and UI design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## React Compiler
+👉 https://poke-dex-o787.vercel.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📌 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* 🔍 Browse a list of Pokémon with images and basic details
+* ⚡ Real-time data fetching from **PokéAPI**
+* 📱 Fully responsive design (mobile & desktop)
+* 🎨 Clean and minimal UI
+* 🧩 Component-based architecture using React
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend:** React.js, JSX
+* **Styling:** CSS3 / Flexbox
+* **API:** [PokéAPI](https://pokeapi.co/)
+* **Deployment:** Vercel
+* **Version Control:** Git & GitHub
+
+---
+
+## 📂 Project Structure
+
+```
+pokedex-web/
+│── src/
+│   ├── components/
+│   │   ├── Header.jsx
+│   │   ├── Pokemon.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Navbar.jsx
+│   ├── App.jsx
+│   ├── app.css
+│   ├── main.jsx
+│   ├── Pokemon.jsx
+│── public/
+│── package.json
+```
+
+---
+
+## ⚙️ How It Works
+
+* The app fetches Pokémon data using **fetch API** from PokéAPI
+* Data is stored and managed using **React state & hooks**
+* Pokémon cards are rendered dynamically using `.map()`
+* Components are reused to keep the code clean and modular
+
+---
+
+## 🧠 Concepts Used
+
+* React Functional Components
+* Props & State
+* Hooks (`useEffect`)
+* API Fetching & Async/Await
+* Responsive Design
+* Component Reusability
+
+---
+
+## 🧪 Installation & Setup
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/mahisingh06330-arch/PokeDex.git
+```
+
+2. Navigate to the project folder
+
+```bash
+cd Pokedex
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Start the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 🎯 Purpose of the Project
+
+This project was built to:
+
+* Strengthen my **React.js fundamentals**
+* Learn **API integration** and data handling
+* Practice **clean UI/UX design**
+* Showcase my skills for **GDG frontend inductions**
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home Page](Screenshots/Home-page.png)
+
+### 📱 Mobile View
+![Mobile View](screenshots/mobile-view.png)
+
+
+---
+
+## 👨‍💻 Author
+
+**Mahi Singh Sengar**
+Frontend Developer | React Enthusiast
+
+---
