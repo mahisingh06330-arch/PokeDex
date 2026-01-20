@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri'
-import './navbar.css'
-import logo from './logo-pokemon.png'
+import '..//Styles/navbar.css'
+import logo from '..//assets/logo-pokemon.png'
 
 
 const Menu = () => (

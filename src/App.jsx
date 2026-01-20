@@ -1,4 +1,4 @@
-import Pokemon from './Pokemon'
+import Pokemon from './components/Pokemon.jsx'
 import React from 'react'
 import Header from './components/Header.jsx'
 import Footer from './components/Footer.jsx'

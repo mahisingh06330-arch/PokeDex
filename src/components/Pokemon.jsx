@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import PokemonCards from './components/PokemonCard'
+import PokemonCards from './PokemonCard'
 
 const Pokemon = () => {
 
