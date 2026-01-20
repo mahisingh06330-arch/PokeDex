@@ -115,7 +115,7 @@ This project was built to:
 ![Home Page](Screenshots/Home-page.png)
 
 ### 📱 Mobile View
-![Mobile View](screenshots/mobile-view.png)
+![Mobile View](Screenshots/mobile-view.png)
 
 
 ---
