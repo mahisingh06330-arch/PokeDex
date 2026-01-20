@@ -4,9 +4,9 @@ A modern and responsive **Pokedex Web Application** built using **React.js** tha
 
 ---
 
-## 🚀 Live Demo
+## Live Demo
 
-👉 https://poke-dex-o787.vercel.app/
+  https://poke-dex-o787.vercel.app/
 
 
 ##  Installation & Setup
@@ -35,12 +35,12 @@ npm install
 npm run dev
 ```
 
-## 📸 Screenshots
+## Screenshots
 
-### 🏠 Home Page
+### Home Page
 ![Home Page](Screenshots/Home-page.png)
 
-### 📱 Mobile View
+### Mobile View
 ![Mobile View](Screenshots/mobile-view.png)
 
 
