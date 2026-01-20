@@ -75,11 +75,11 @@ a {
   height: 6px;
   width: 100%;
   background: linear-gradient(to right,
-      red);
+      rgba(255, 0, 0, 0.6));
 }
 
 .pokedex:hover {
-  background-color: red;
+  background-color: rgba(255, 0, 0, 0.6);
   color: white;
 }
 

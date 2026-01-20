@@ -11,17 +11,14 @@ html {
 }
 
 body {
+  margin: 0;
+  padding: 0;
   width: 100%;
   overflow-x: hidden;
   background-image: url("./assets/Background_Image.png");
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,h2,h3,h4,h5,h6 {
   font-weight: 900;
 }
 
@@ -32,8 +29,7 @@ h1 {
   text-align: center;
 }
 
-p,
-span {
+p,span {
   font-size: 1.6rem;
 }
 
@@ -98,7 +94,6 @@ input[type="text"] {
   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
     rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
   background-color: #fff;
-  /* card background */
   border-radius: 0.2rem;
   padding: 1.6rem;
   position: relative;
