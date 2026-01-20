@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Urbanist", sans-serif;
+  overflow-x: hidden;
 }
 
 html {
@@ -11,9 +12,9 @@ html {
 
 body {
   width: 100%;
-  background-color: #eff3ff;
+  /* background-color: #eff3ff; */
   overflow-x: hidden;
-  background-image: url("./components/Background_Image.png");
+  /* background-image: url("./components/Background_Image.png"); */
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -172,7 +173,7 @@ figure {
     -moz-border-radius: 20rem;
     -ms-border-radius: 20rem;
     -o-border-radius: 20rem;
-    color: #fff;
+    /* color: #fff; */
     font-weight: bold;
     text-transform: capitalize;
   }
