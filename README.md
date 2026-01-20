@@ -8,69 +8,8 @@ A modern and responsive **Pokedex Web Application** built using **React.js** tha
 
 👉 https://poke-dex-o787.vercel.app/
 
----
 
-## 📌 Features
-
-* 🔍 Browse a list of Pokémon with images and basic details
-* ⚡ Real-time data fetching from **PokéAPI**
-* 📱 Fully responsive design (mobile & desktop)
-* 🎨 Clean and minimal UI
-* 🧩 Component-based architecture using React
-
----
-
-## 🛠️ Tech Stack
-
-* **Frontend:** React.js, JSX
-* **Styling:** CSS3 / Flexbox
-* **API:** [PokéAPI](https://pokeapi.co/)
-* **Deployment:** Vercel
-* **Version Control:** Git & GitHub
-
----
-
-## 📂 Project Structure
-
-```
-pokedex-web/
-│── src/
-│   ├── components/
-│   │   ├── Header.jsx
-│   │   ├── Pokemon.jsx
-│   │   ├── Footer.jsx
-│   │   ├── Navbar.jsx
-│   ├── App.jsx
-│   ├── app.css
-│   ├── main.jsx
-│   ├── Pokemon.jsx
-│── public/
-│── package.json
-```
-
----
-
-## ⚙️ How It Works
-
-* The app fetches Pokémon data using **fetch API** from PokéAPI
-* Data is stored and managed using **React state & hooks**
-* Pokémon cards are rendered dynamically using `.map()`
-* Components are reused to keep the code clean and modular
-
----
-
-## 🧠 Concepts Used
-
-* React Functional Components
-* Props & State
-* Hooks (`useEffect`)
-* API Fetching & Async/Await
-* Responsive Design
-* Component Reusability
-
----
-
-## 🧪 Installation & Setup
+##  Installation & Setup
 
 1. Clone the repository
 
@@ -96,19 +35,6 @@ npm install
 npm run dev
 ```
 
----
-
-## 🎯 Purpose of the Project
-
-This project was built to:
-
-* Strengthen my **React.js fundamentals**
-* Learn **API integration** and data handling
-* Practice **clean UI/UX design**
-* Showcase my skills for **GDG frontend inductions**
-
----
-
 ## 📸 Screenshots
 
 ### 🏠 Home Page
@@ -120,9 +46,3 @@ This project was built to:
 
 ---
 
-## 👨‍💻 Author
-
-**Mahi Singh Sengar**
-Frontend Developer | React Enthusiast
-
----
