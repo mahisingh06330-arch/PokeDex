@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import PokemonCards from './PokemonCard'
+import PokemonDetails from './PokemonDetails'
 
 const Pokemon = () => {
 
@@ -7,7 +8,9 @@ const Pokemon = () => {
     const [loading, setLoading] = useState(true)
     const [error, setError] = useState(null)
     const [search, setSearch] = useState("")
-    const [showAll, setShowAll] = useState(false)  
+    const [showAll, setShowAll] = useState(false)
+    
+    const [selectedPokemon,setSelectedpokemon] = useState(null)
 
     const API = "https://pokeapi.co/api/v2/pokemon?limit=40"
 
@@ -67,6 +70,7 @@ const Pokemon = () => {
                         <PokemonCards
                             key={currentPokemon.id}
                             pokemonData={currentPokemon}
+                            onClick={()=>setSelectedpokemon(currentPokemon)}
                         />
                     ))}
                 </ul>
@@ -79,6 +83,15 @@ const Pokemon = () => {
                         {showAll ? "Show Less" : "Show All"}
                     </button>
                 )}
+
+                {
+                    selectedPokemon && (
+                        <PokemonDetails 
+                        pokemon={selectedPokemon}
+                        onClose={()=>setSelectedpokemon(null)}
+                        />
+                    )
+                }
 
             </section>
         </>

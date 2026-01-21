@@ -1,8 +1,8 @@
 import React from 'react'
 
-const PokemonCard = ({pokemonData}) => {
+const PokemonCard = ({pokemonData,onClick}) => {
   return (
-    <li className='pokemon-card'>
+    <li className='pokemon-card' onClick={onClick} >
         <figure>
             <img className='pokemon-image' src={pokemonData.sprites.other.dream_world.front_default} alt={pokemonData.name} />
         </figure>

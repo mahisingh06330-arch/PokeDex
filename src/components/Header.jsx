@@ -1,7 +1,13 @@
 import '../Styles/header.css'
-import React from 'react'
+import React, { useState } from 'react'
+import PokemonLogo from '../assets/logo-pokemon.png'
+
 
 const Header = () => {
+   
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+
   return (
     <>
       <div className="images">
@@ -27,7 +33,24 @@ const Header = () => {
           <img id='mobile' src='https://assets.pokemon.com/assets/cms2/img/misc/gus/promotions/mobile-apps-176x50-en.png' alt='mobile' />
         </div>
       </div>
-      <div className="navbar">
+
+
+<div className="mobile-toggle"
+  onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+>
+  <div className="poke_logo">
+          <img src={PokemonLogo} alt="logo" />
+        </div>
+  <i className="fa-solid fa-bars"></i>
+</div>
+
+
+
+
+
+      {/* <div className="navbar"> */}
+      <div className={`navbar ${isMobileMenuOpen ? "mobile-open" : ""}`}>
+
         <div className="home common">
           <i class="fa-regular fa-house"></i>
           <span>Home</span>
