@@ -2,14 +2,13 @@ import React from "react";
 import '../Styles/details.css'
 
 const PokemonDetails = ({ pokemon, onClose }) => {
-    if (!pokemon) return null;
 
     return (
         <div className="pokemon-modal" onClick={onClose}>
             <div
                 className="pokemon-modal-content"
-                onClick={(e) => e.stopPropagation()}
-            >
+                onClick={(e) => e.stopPropagation()}>
+                    
                 <button className="close-btn" onClick={onClose}>✕</button>
 
                 <img className="modal-img" src={
