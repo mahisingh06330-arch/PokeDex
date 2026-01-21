@@ -35,16 +35,31 @@ const Header = () => {
       </div>
 
 
-<div className="mobile-toggle"
+{/* <div className="mobile-toggle"
   onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
 >
   <div className="poke_logo">
           <img src={PokemonLogo} alt="logo" />
         </div>
   <i className="fa-solid fa-bars"></i>
+</div> */}
+
+<div
+  className="mobile-toggle"
+  onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+>
+  {/* LEFT: Logo */}
+  <div className="poke_logo">
+    <img src={PokemonLogo} alt="logo" />
+  </div>
+
+  {/* RIGHT: Icon */}
+  <i
+    className={`fa-solid ${isMobileMenuOpen ? "fa-xmark" : "fa-bars"} menu-icon`}
+  ></i>
 </div>
 
-
+      
 
 
 

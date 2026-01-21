@@ -44,7 +44,7 @@ const Pokemon = () => {
         currPokemon.name.toLowerCase().includes(search.toLowerCase())
     )
 
-    //  ONLY SHOW 4 UNTIL CLICK SHOW ALL
+    // Show All Function
     const displayedPokemon = showAll ? searchData : searchData.slice(0, 4);
 
 

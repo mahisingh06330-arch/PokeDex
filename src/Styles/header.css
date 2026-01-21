@@ -256,7 +256,6 @@ h1:hover {
   
    .poke_logo{
     display: flex;
-    
    }
 
   .navbar {
@@ -294,4 +293,37 @@ h1:hover {
     display: none;
   }
 }
+
+/* ================= MOBILE HEADER BAR ================= */
+@media (max-width: 950px) {
+
+  .mobile-toggle {
+    display: flex;
+    justify-content: space-between; /* logo left, icon right */
+    align-items: center;
+    padding: 1rem 1.5rem;
+  }
+
+  .poke_logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .poke_logo img {
+    height: 32px;
+    width: auto;
+  }
+
+  .menu-icon {
+    font-size: 2.6rem;
+    cursor: pointer;
+    transition: transform 0.3s ease, opacity 0.2s ease;
+  }
+
+  /* Rotate animation */
+  .menu-icon.fa-xmark {
+    transform: rotate(180deg);
+  }
+}
+
 
