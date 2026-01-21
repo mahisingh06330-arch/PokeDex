@@ -9,8 +9,8 @@ const Pokemon = () => {
     const [error, setError] = useState(null)
     const [search, setSearch] = useState("")
     const [showAll, setShowAll] = useState(false)
-    
-    const [selectedPokemon,setSelectedpokemon] = useState(null)
+
+    const [selectedPokemon, setSelectedpokemon] = useState(null)
 
     const API = "https://pokeapi.co/api/v2/pokemon?limit=40"
 
@@ -34,7 +34,7 @@ const Pokemon = () => {
                 setLoading(false)
                 setError(error)
             }
-        };   
+        };
 
         fetchPokemon()
     }, []);
@@ -70,7 +70,7 @@ const Pokemon = () => {
                         <PokemonCards
                             key={currentPokemon.id}
                             pokemonData={currentPokemon}
-                            onClick={()=>setSelectedpokemon(currentPokemon)}
+                            onClick={() => setSelectedpokemon(currentPokemon)}
                         />
                     ))}
                 </ul>
@@ -84,15 +84,12 @@ const Pokemon = () => {
                     </button>
                 )}
 
-                {
-                    selectedPokemon && (
-                        <PokemonDetails 
+                {selectedPokemon && (
+                    <PokemonDetails
                         pokemon={selectedPokemon}
-                        onClose={()=>setSelectedpokemon(null)}
-                        />
-                    )
-                }
-
+                        onClose={() => setSelectedpokemon(null)}
+                    />
+                )}
             </section>
         </>
     )
