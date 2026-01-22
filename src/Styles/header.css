@@ -9,21 +9,24 @@
   justify-content: space-between;
   padding: 1rem;
 }
+
 a {
   text-decoration: none;
   color: white;
 }
 
 .common {
+  color: black;
   width: 20rem;
   font-weight: 500;
   padding: 0 1rem;
-  display: flex;
+  display:flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 1rem;
   margin-bottom: -5px;
+  width:100%;
 }
 
 .images {
@@ -40,13 +43,32 @@ a {
   padding: 0.5rem;
 }
 
-#poke_logo,#shop,#about,#card_game,#forums,#legends,#mobile {
+#poke_logo,
+#shop,
+#about,
+#card_game,
+#forums,
+#legends,
+#mobile {
   border: 0.1rem solid rgb(143, 134, 134);
 }
 
-#poke_logo,#shop,#about {
+#poke_logo,
+#shop,
+#about {
   padding: 0.7rem;
   box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+#shop:hover,
+#about:hover,
+#poke_logo:hover,
+#card_game:hover,
+#forums:hover,
+#legends:hover,
+#mobile:hover {
+  transition: all;
+  transform: translateY(-0.3rem);
 }
 
 .color-bar1 {
@@ -80,8 +102,7 @@ a {
   height: 6px;
   width: 100%;
   background: linear-gradient(to right,
-      #ea638c
-      );
+      #ea638c);
 }
 
 .game:hover {
@@ -149,12 +170,15 @@ a {
 .common span {
   font-size: 1.5rem;
 }
-.title p{
+
+.title p {
   text-align: center;
 }
-.title h1:hover{
+
+.title h1:hover {
   transition: all;
 }
+
 .title {
   font-size: 32px;
   font-weight: 700;
@@ -165,7 +189,8 @@ h1:hover {
   transform: translateY(-2px);
   text-shadow: 0 6px 10px rgba(230, 98, 16, 0.3);
 }
-.navbar2{
+
+.navbar2 {
   display: none;
 }
 
@@ -204,7 +229,7 @@ h1:hover {
   .common {
     padding: 0.5rem;
     width: 90%;
-    border-bottom: 1px solid rgba(255,255,255,0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   }
 
   .images img {
@@ -226,7 +251,8 @@ h1:hover {
 .mobile-toggle {
   display: none;
 }
-.poke_logo{
+
+.poke_logo {
   display: none;
 }
 
@@ -239,10 +265,10 @@ h1:hover {
     font-size: 2.4rem;
     cursor: pointer;
   }
-  
-   .poke_logo{
+
+  .poke_logo {
     display: flex;
-   }
+  }
 
   .navbar {
     display: none;
@@ -268,6 +294,7 @@ h1:hover {
     margin-left: 1rem;
     font-size: 1.8rem;
   }
+
   .navbar [class^="color-bar"] {
     display: none;
   }
@@ -277,7 +304,7 @@ h1:hover {
 
   .mobile-toggle {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
     padding: 1rem 1.5rem;
   }
@@ -297,10 +324,9 @@ h1:hover {
     cursor: pointer;
     transition: transform 0.3s ease, opacity 0.2s ease;
   }
-  .common:hover{
-    color:white;
+
+  .common:hover {
+    color: white;
     background-color: rgb(232, 154, 9);
   }
 }
-
-
