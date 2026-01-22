@@ -116,11 +116,11 @@ const footer = () => {
             <a href="#">Press Site</a>
           </div>
           <div className="icons">
-            <i class="fa-brands fa-youtube" id='utube'></i>
-            <i class="fa-brands fa-facebook" id='fb'></i>
-            <i class="fa-brands fa-linkedin" id='ln'></i>
-            <i class="fa-brands fa-instagram" id='ig'></i>
-            <i class="fa-brands fa-pinterest" id='pt'></i>
+            <a href="https://m.youtube.com/user/Pokemon" target='main'><i class="fa-brands fa-youtube" id='utube'></i></a>
+            <a heref="https://www.facebook.com/Pokemon/" target='main'><i class="fa-brands fa-facebook" id='fb'></i></a>
+           <a href="https://x.com/pokemon" target='main'><i class="fa-brands fa-linkedin" id='ln'></i></a>
+            <a href="https://www.instagram.com/pokemon" target='main'><i class="fa-brands fa-instagram" id='ig'></i></a>
+            <a href='https://www.pinterest.com/pokemon/' target='main'><i class="fa-brands fa-pinterest" id='pt'></i></a>
           </div>
           <div className='info'>
             <li>Terms of Use</li>
